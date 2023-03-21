@@ -1,0 +1,18 @@
+if SHIELD_MOONSHINE
+
+config ZMK_KEYBOARD_NAME
+    default "Moonshine"
+
+config I2C
+	default y
+	
+config SPI
+	default y
+
+config GPIO_MCP23017
+	default y
+
+config ZMK_KSCAN_MATRIX_POLLING
+	default y
+
+endif
